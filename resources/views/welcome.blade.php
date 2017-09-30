@@ -13,6 +13,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 
 
         <!-- Styles -->
@@ -85,8 +86,17 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
+            <div class="content col-md-12">
+                <div col-md-3>
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <script>
+                      (adsbygoogle = window.adsbygoogle || []).push({
+                        google_ad_client: "ca-pub-8050220120011899",
+                        enable_page_level_ads: true
+                      });
+                    </script>
+                </div>
+                <div class="title m-b-md col-md-8">
                     LRWebs.io
                 </div>
             </div>
