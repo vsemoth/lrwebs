@@ -13,7 +13,7 @@
             <div class="field">
               <label for="name" class="label">Name</label>
               <p class="control">
-                <input class="input {{$errors->has('name') ? 'is-danger' : ''}}" type="text" name="name" id="name" value="{{old('name')}}" required>
+                <input class="input {{$errors->has('name') ? 'is-danger' : ''}}" type="text" name="name" id="name" value="{{old('name')}}" placeholder="e.g. John Smith" required>
               </p>
               @if ($errors->has('name'))
                 <p class="help is-danger">{{$errors->first('name')}}</p>
@@ -22,7 +22,7 @@
             <div class="field">
               <label for="email" class="label">Email Address</label>
               <p class="control">
-                <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="text" name="email" id="email" value="{{old('email')}}" required>
+                <input class="input {{$errors->has('email') ? 'is-danger' : ''}}" type="text" name="email" id="email" value="{{old('email')}}" placeholder="example@mail.com" required>
               </p>
               @if ($errors->has('email'))
                 <p class="help is-danger">{{$errors->first('email')}}</p>
@@ -33,7 +33,7 @@
                 <div class="field">
                   <label for="password" class="label">Password</label>
                   <p class="control">
-                    <input class="input {{$errors->has('password') ? 'is-danger' : ''}}" type="password" name="password" id="password" required>
+                    <input class="input {{$errors->has('password') ? 'is-danger' : ''}}" type="password" name="password" id="password" placeholder="Enter Password" required>
                   </p>
                   @if ($errors->has('password'))
                     <p class="help is-danger">{{$errors->first('password')}}</p>
@@ -45,7 +45,7 @@
                 <div class="field">
                   <label for="password_confirmation" class="label">Confirm Password</label>
                   <p class="control">
-                    <input class="input {{$errors->has('password_confirmation') ? 'is-danger' : ''}}" type="password" name="password_confirmation" id="password_confirmation" required>
+                    <input class="input {{$errors->has('password_confirmation') ? 'is-danger' : ''}}" type="password" name="password_confirmation" id="password_confirmation" placeholder="Re-enter Password" required>
                   </p>
                   @if ($errors->has('password_confirmation'))
                     <p class="help is-danger">{{$errors->first('password_confirmation')}}</p>

@@ -11,8 +11,9 @@
     <title>{{ config('app.name', 'LRWebs') }}</title>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @yield('styles')
+    <link href="{{ asset('css/bootstrap-3/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
 

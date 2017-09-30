@@ -18,9 +18,9 @@
       <a class="nav-item is-tab is-hidden-tablet">Learn</a>
       <a class="nav-item is-tab is-hidden-tablet">Discuss</a>
       <a class="nav-item is-tab is-hidden-tablet">Share</a>
-      <a class="nav-item is-tab is-hidden-tablet">About</a>
-      <a class="nav-item is-tab is-hidden-tablet">Contact</a>
       @if (Auth::guest())
+      <a href="{{route('about')}}" class="nav-item is-tab">About</a>
+      <a href="{{route('contact')}}" class="nav-item is-tab">Contact</a>
         <a href="{{route('login')}}" class="nav-item is-tab">Login</a>
         <a href="{{route('register')}}" class="nav-item is-tab">Join the Community</a>
       @else

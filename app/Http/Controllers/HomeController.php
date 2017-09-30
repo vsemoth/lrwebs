@@ -13,7 +13,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth',['except' => ['about', 'contact']]);
+        $this->middleware('auth',['except' => ['getAbout', 'getContact']]);
     }
 
     /**
