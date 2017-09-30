@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/about', 'HomeController@getAbout')->name('about');
+
+Route::get('/contact', 'HomeController@getContact')->name('contact');
+
 Route::get('/', function () {
     return view('welcome');
 });
