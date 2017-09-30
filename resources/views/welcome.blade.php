@@ -38,6 +38,11 @@
                 background-color: #ece;
             }
 
+            p,h2, h3, h4, h5 {
+                color: #000;
+                font-weight: bolder;
+            }
+
             .title h1 {
                 color:transparent;
             }
