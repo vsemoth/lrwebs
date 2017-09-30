@@ -38,7 +38,7 @@
                 background-color: #ece;
             }
 
-            p,h2, h3, h4, h5 {
+            p,h2, h3, h4, h5, li {
                 color: #000;
                 font-weight: bolder;
             }
