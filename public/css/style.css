@@ -15,49 +15,6 @@ meta charset='utf-8'
                 font-weight: 5px;
             }
 
-            #app, table, tr, td {
-                background-color: #ece;
-            }
-
-            table {
-                position: absolute;
-                margin-bottom: 0px;
-            }
-
-            .title h1 {
-                color:#000;
-            }
-
-            .full-height {
-                height: 100vh;
-                background-color: #eee;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-                margin: 0;
-            }
-
             .links > a {
                 color: #000;
                 padding: 0 25px;
@@ -119,3 +76,57 @@ meta charset='utf-8'
             .col-md-6 {
                 background-color: #eec;
             }
+
+            .col-md-4 {
+    background: none;
+    min-height: 240px;
+    margin: 10px;
+}
+.col-md-4 img {
+    height: 240px;
+    width: 100%;
+}
+#backdrop {
+    min-height: 120px;
+    background: none;
+    margin: 20px;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+article {
+    background-color: #fff;
+    min-height: 500px;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px #caecac;
+    font-size: 48px;
+    font-family: Calibri, Arial, Sans-serif;
+}
+p {
+    font-size: 16px;
+    background: #eee;
+}
+.img {
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+video {
+    border: 2px solid #000;
+    border-radius: 10px;
+}

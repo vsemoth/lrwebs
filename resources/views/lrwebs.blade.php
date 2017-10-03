@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('title', ' | LRWebs')
 
@@ -35,9 +35,6 @@
         <div class="col-md-4">
           <img class="img" src="{{asset('images/mc-mickey2.jpg')}}">
         </div>
-      <div class="col-md-8" id="backdrop">
-        @include('video')
-      </div>
       </div>
     </div>
 </div>

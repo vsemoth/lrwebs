@@ -15,7 +15,11 @@ Route::get('/about', 'HomeController@getAbout')->name('about');
 
 Route::get('/contact', 'HomeController@getContact')->name('contact');
 
-Route::get('/', function () {
+Route::get('/lrwebs', 'VideoController@landing')->name('test');
+
+Route::get('/video', 'VideoController@getSketch')->name('sketchvid');
+
+Route::get('/landing', function () {
     return view('test');
 });
 
@@ -30,3 +34,5 @@ Route::prefix('manage')->middleware('role:superadministrator|administrator|edito
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('video/Sketchpad', ['uses' => 'VideoController@index', 'as' => 'sketch']);
