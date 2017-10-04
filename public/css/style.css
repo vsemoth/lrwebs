@@ -25,13 +25,26 @@ meta charset='utf-8'
                 text-transform: uppercase;
             }
 
+            .row {
+                margin-top: 40px;
+            }
+
             .m-b-md {
                 background-repeat: no-repeat;
                 margin-bottom: 30px;
             }
+
+            h1 {
+                margin-bottom: 40px;
+            }
+
             h2, .dark {
                 color: #000;
                 font-weight: bolder;
+            }
+
+            a:hover, a, h2 {
+                text-decoration: none;
             }
 
             img {
@@ -105,6 +118,13 @@ meta charset='utf-8'
 .position-ref {
     position: relative;
 }
+
+blockquote h1 {
+    text-decoration: none;
+    font-size: 36px;
+    color: #3c3;
+    text-shadow: 2px 1px 1px #000;
+}
 article {
     background-color: #fff;
     min-height: 500px;
@@ -129,4 +149,14 @@ p {
 video {
     border: 2px solid #000;
     border-radius: 10px;
+}
+
+li {
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+#dash {
+    text-align: center;
 }

@@ -14,8 +14,7 @@ class VideoController extends Controller
      */
     public function landing()
     {
-    	$vid = 'video/Sketchpad.mp4';
-        return view('lrwebs')->withVid($vid);
+        return view('lrwebs');
     }
 
     /**

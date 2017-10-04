@@ -15,6 +15,8 @@ Route::get('/about', 'HomeController@getAbout')->name('about');
 
 Route::get('/contact', 'HomeController@getContact')->name('contact');
 
+Route::get('/', 'VideoController@landing')->name('lrwebs');
+
 Route::get('/lrwebs', 'VideoController@landing')->name('test');
 
 Route::get('/video', 'VideoController@getSketch')->name('sketchvid');

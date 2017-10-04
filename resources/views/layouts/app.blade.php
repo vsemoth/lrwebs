@@ -25,6 +25,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('css/bootstrap-3/js/bootstrap.min.js') }}"></script>
     @yield('scripts')
 </body>
 </html>

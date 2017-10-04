@@ -11,13 +11,22 @@
     <title>{{ config('app.name', 'LRWebs') }}</title>
 
     <!-- Styles -->
-    @yield('styles')
     <link href="{{ asset('css/bootstrap-3/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    @yield('styles')
+    <style type="text/css">
+        p {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 20px;
+        }
+    </style>
 </head>
 <body>
 
-    @include('_includes.nav.nav')
+    @yield('nav')
 
     <div id="app">
       @yield('content')

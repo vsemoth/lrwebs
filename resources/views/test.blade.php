@@ -7,7 +7,6 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 @stop
 
-@section('content')
 
     <div class="full-height container" style="width:100%">
       <img src="{{ asset('images/webCard/slide1.JPG') }}">
@@ -106,6 +105,3 @@
       </div>
   </a>
   </div>
-
-
-@endsection
