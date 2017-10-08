@@ -10,7 +10,7 @@
   <div class="row">
     <div class="col-md-offset-2">
       <div class="col-md-4">
-        <a href="http://138.197.190.11/">
+        <a href="http://138.68.174.212/">
         <img class="img" src="{{asset('images/ecrfm.bmp')}}" alt="Ekhephini Community Radio Image Link">
         <span>visit</span>
         <h2>Ekhephini Community Radio</h2>
